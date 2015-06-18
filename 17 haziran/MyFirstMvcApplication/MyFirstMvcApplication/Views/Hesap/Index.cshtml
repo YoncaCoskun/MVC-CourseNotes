@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<form action="/Hesap/GirisYap" method="POST">
+    <input type="text" name="kullaniciAdi"/> <br/>
+    <input type="password" name="parola"/> <br/>
+    <input type="submit" value="Giriş"/>
+</form>
+    @ViewBag.LoginUyarisi
+</body>
+</html>

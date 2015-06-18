@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div style="background-color: lightblue; height: 75px"> BURASI HEADER </div>
+    <div style="float: left; background-color: silver; width: 25%;">
+        <ul>
+            <li><a href="/Genel/AnaSayfa">Ana Sayfa</a></li>
+            <li><a href="/Genel/Hakkimizda">Hakkımızda</a></li>
+            <li><a href="/Genel/Kontak">İletişim</a></li>
+            <li><a href="/Genel/BasindaBiz">Basında Biz</a></li>
+        </ul>
+    </div>
+<div style="float: left; background-color: burlywood; width: 75%;">
+    @RenderBody()
+</div>
+    <div style="clear: both"></div>
+    <div style="background-color: lightblue; height: 50px"> BURASI FOOTER</div>
+</body>
+</html>

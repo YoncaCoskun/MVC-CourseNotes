@@ -1,0 +1,149 @@
+MVC - Model View Controller
+
+MVC aslýnda bir pattern dir.
+
+Web uygulamalarýnda kullanýycaz
+
+Kavramlarýn ayrýþmasý (seperation of concerns) ilkesine dayalý.
+
+http://www.w3schools.com/aspnet/27.jpg - Model Hiç Kimseyi bilmiyor, View Modeli biliyor, Controller herkesi biliyor.
+
+------------------------------------------
+
+1- Visual studio da yeni proje / c# / Web / ASP.NET diyoruz.
+
+2- Empty seçip altta MVC ye tik atýyoruz
+
+-----------------------------------------
+
+Uygulama start olduðunda (yani ilk istek gittiðinde) Global.asax içindeki Application_Start() çalýþýr, sonraki giriþlerde çalýþmaz.
+
+Son kiþi uygulamadan çýktýktan bir süre sonra (bu süre 20 dk olur genelde ama ayarlanabilir) uygulama end olur, yani session biter. Bu durumdan sonra gelen ilk baðlantýda yeniden Application_Start ile uygulama start olur.
+
+Web.config bizim c# daki app.config gibi ayný. Ýçine ConnectionString yazabiliyoruz.
+
+Önce View, Sonra Controller üzerinden gidiyoruz. Model kýsmýný sonra inceleyeceðiz.
+
+-------------------------------------
+
+1- Views klasörüne sað týk, add, view diyoruz.
+
+2- Layout Page deki tik i kaldýrýyoruz ve add diyoruz. adýný AnaSayfa verik.
+
+3- sonra açýlan view içindeki @{ Layout = null; } 
+
+4- Tasarým yapýyoruz (dersteki örnekte bir yukarý bir header div i, altýna yanyana 2 div soldaki menü þeklinde saðdaki içerik þeklinde ve aþaðý footer divi tasarýmý yaptýk)
+
+--------------
+
+1- App_Start klasörü altýndaki RouteConfig içinde controller = "Genel" ve action = "AnaSayfa" yaptýk
+
+2- Controllers klasörüne sað týk, add, controller, MVC 5 Controller - Empty seçtik add dedik. Adýna GenelController dedik.
+
+3- public ActionResult Index() deki Index yazýsýný AnaSayfa olarak deðiþtirdik. Viewimizin action kýsmýnda AnaSayfa yazmýstýk ya, o kýsýmla buradaki fonksiyonun adý ayný olmalýdýr.
+
+4- AnaSayfa.cshtml dosyasýný Views klasörünün altýndaki Genel klasörünün altýna sürükledik.
+
+------------------
+
+Adres çubuðunda Genel/Anasayfa silsek bile o sayfa açýlýr. Çünkü default olarak o ayarlandý.
+
+Controller, ayný isimli View e eriþiyor.
+
+------------------
+
+1- Genel klasörüne sað týk, add, View diyerek bu iþlemi Hakkimizda, Kontak, BasýndaBiz adýnda 3 sayfa ekledik.
+
+2- Bu sayfalara da anasayfadaki içeriðin aynýsýný kopyaladýk, sadece içerik kýsmýný deðiþtirdik.
+
+3- menüdeki anasayfanýn <a> sýna href="/Genel/AnaSayfa", diðerlerine de bu þekilde nagivate linki ekledik, ilgili sayfa isimlerini verdik.
+
+----------------
+
+Burada görüyoruz ki bu büyük bir problem. Çünkü mesela ileride bize footer rengini mavi yap gibi bir istekte bulunurlarsa ya da tasarýmda bir deðiþiklik yapmak istenirse tüm sayfalarda teker teker deðiþtirmemiz gerekecekti. Bu yüzden tasarýmý sabit olarak hazýrlayacaðýz.
+
+----------------
+
+Bir tasarým html i var ve tüm Viewler görsün istiyoruz.
+
+1- Views klasörüne yeni bir klasör ekledik, adý Shared.
+
+2- Bu klasöre sað týk, add, MVC 5 LayautPage ekliyoruz, adýný deðiþtirmedik. Burasý tüm sayfalarda ortak olacak kýsým(header footer fln).
+
+3- AnaSayfa daki  body taglarýnýn içini kopyala, layaut daki bodynin içine yapýstýr( <div> @RenderBody() </div> li kýsmý silip yerine yapýstýracagýz).
+
+4- Simdi sayfalara göre deðiþen kýsmýn yerine (anaSayfa da AnaSayfa Ýçeriði) o yazýyý silip @RenderBody() yazýyoruz.
+
+------------------
+
+Normalde html kodlarý yazýyoruz. ama @ yazdýktan sonra c# kodlarý yazabiliyoruz.
+
+Dosyalarýmýz .cshtml uzantýlý yani c# ve html yazabiliyoruz. Bunu RAZOR engine saðlýyor.
+
+------------------
+
+1- AnaSayfa daki herþeyi sildik. sadece deðiþken kýsým (Burasý Anasayfa) yazýsýný býraktýk. 
+
+2- Sayfanýn en üstüne @{} koyuyoruz. (c# kodlarý yazýcaz), bu süslü parantezlerin içine Layout = "../Shared/_LayoutPage1.cshtml"; yazdýk. Burada baþtaki .. bir üst klasöre çýkmamýzý (Genel klasöründen Views klasörüne) daha sonra Viewsin altýndaki Shared klasörünün altýndaki _LayoutPage1.cshtml dosyasýna eriþmemizi saðladý.
+
+------------------
+
+1- Controllers sað týk, add, controller diyip en baþtaki empty contoller ekliyoruz. adýna HesapController dedik.
+
+2- Views klasöür sað týk, Hesap diye klasör oluþturduk. içine View ekledik. ismini deðiþtirmedik.
+
+Giriþ ekraný hazýrlamýþ olduk. 
+
+------------------
+
+1- Bu view içine 
+
+ <form action="/Hesap/GirisYap" method="POST">
+    <input type="text" name="kullaniciAdi"/> <br/>
+    <input type="password" name="parola"/> <br/>
+    <input type="submit" value="Giriþ"/>
+</form>
+ @ViewBag.LoginUyarisi
+
+bi login sistemi oluþturduk (iki textbox bi button).
+
+2- HesapController in içine 
+
+ public ActionResult GirisYap(string kullaniciAdi, string parola)
+        {
+            if (kullaniciAdi == "mehmet" && parola == "123")
+            {
+                return RedirectToAction("AnaSayfa", "Genel");
+            }
+
+            //TempData["LoginHatasi"] = "Kullanýcý Adý Parola Yanlýþ";
+            ViewBag.LoginUyarisi = "Kullanýcý Adý Parola Yanlýþ";
+            
+            return View("Index");
+        }
+
+bu metodu yazdýk. burada parametre olarak view deki textboxlardan postlanan veriyi kontrol ediyoruz. eðer kullanýcý adý ve þifre doðruysa RedirectToAction ile Genel Klasörü altýndaki AnaSayfa ya yönlendiriyoruz. Eðer hatalý ise ViewBag ya da TempData kullanarak bildiriyoruz ve Indexe geri dönüyoruz.
+
+-----------------
+
+Ödev: parametre kullanmadan post edilen verileri nasýl alabilirim ?
+
+----------------
+
+Normalde Controller kendi Viewlerini açar, biz istediðimiz sayfaya yönlendirmek istiyorsak RedirectToAction diyip parametre olarak sayfa adý ve klasörü veriyoruz.
+
+TempData nýn içine bir nesne atýp, çekiyoruz. Detaylarýna yarýn bakacakmýþýz. Bunun yerine ViewBag de kullanabiliriz.
+
+return View("Index") ayný control altýndaki bir viewe direkt parametreyle yönlendirebiliriz.
+
+Daha sonra TempData ya da ViewBag hangisini kullandýysak kopyalayýp sayfaya yapýþtýracaðýz, c# kodu olduðu için @ koyucaz baþýna. (View sayfasýndaki formun altýna @ViewBag.LoginUyarisi koyucaz).
+
+
+
+
+
+
+
+
+
+
