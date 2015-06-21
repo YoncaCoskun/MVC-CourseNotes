@@ -1,0 +1,44 @@
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\EntityFramework.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Webpages.Deployment.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Webpages.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Webpages.Razor.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\EntityFramework.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Webpages.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Webpages.Deployment.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Webpages.Razor.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\WebApplication2.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\EntityFramework.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Webpages.Deployment.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Webpages.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Webpages.Razor.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\EntityFramework.xml
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Webpages.xml
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Webpages.Deployment.xml
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Webpages.Razor.xml
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+\\psf\Home\Desktop\19 Haziran\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

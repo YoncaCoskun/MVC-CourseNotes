@@ -1,0 +1,37 @@
+﻿@model WebApplication2.Models.CalisanModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+
+   @using (Html.BeginForm("Kaydet","Calisan"))
+   {
+       @Html.HiddenFor(x=>x.CalisanId)
+       <table>
+           <tr>
+               <td>Ad</td>
+               <td>@Html.TextBoxFor(x => x.Ad)</td>
+           </tr>
+           <tr>
+               <td>Soyad</td>
+               <td>@Html.TextBoxFor(x => x.Soyad)</td>
+           </tr>
+           <tr>
+               <td>Unvan</td>
+               <td>@Html.TextBoxFor(x => x.Unvan)</td>
+           </tr>
+           <tr>
+               <td>Sehir</td>
+               <td>@Html.TextBoxFor(x => x.Sehir)</td>
+           </tr>
+       </table>
+       <input type="submit" value="Kaydet/Guncelle"/>
+   }
+
+
+</body>
+</html>

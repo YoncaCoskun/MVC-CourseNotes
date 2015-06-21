@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Yeni</title>
+</head>
+<body>
+    <a href="/Home/AnaSayfa">Ana Sayfa</a>
+    <a href="/Home/Yeni">Yeni</a>
+
+    <hr />
+
+
+    @using (Html.BeginForm("Kaydet", "Home")) //method u psttur kaynagı goruntule dedigimizde bunları gorebılırız.
+    {
+        <div>
+            Ürün adı: <input type="text" name="urunAdi" /><br />
+            Fiyat : <input type="text" name="fiyat" /><br />
+            Stok : <input type="text" name="stok" /><br />
+            <input type="submit" value="Kaydet" />
+        </div>
+    }
+
+</body>
+</html>

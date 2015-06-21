@@ -1,0 +1,11 @@
+BLOG Sitesi. EF DbFirst | EF CodeFirst
+
+Admin : Makale Ekle, Makale Güncelle, Makale Sil, Makale Listele
+User  : Makale Listele (Baslik, Ozet, OkunmaSayisi, Eklenme Tarihi)
+		Makale Detay (Baslik, Icerik, OkunmaSayisi, Eklenme Tarihi)
+
+Makale
+	Id, Baslik, Ozet, Icerik, OkunmaSayisi, Eklenme Tarihi
+
+
+	

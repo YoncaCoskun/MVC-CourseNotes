@@ -1,0 +1,36 @@
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Webpages.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Webpages.Razor.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Webpages.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Webpages.Razor.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\ogrenci\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.dll
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.Razor.dll
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.xml
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Webpages.Razor.xml
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\ogrenci\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

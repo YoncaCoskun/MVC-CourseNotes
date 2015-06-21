@@ -1,0 +1,48 @@
+﻿@model WebApplication1.Models.UrunModel
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Goruntule</title>
+</head>
+<body>
+    <a href="/Home/AnaSayfa">Ana Sayfa</a>
+    <a href="/Home/Yeni">Yeni</a>
+
+<hr/>
+    <form action="/Home/Guncelle" method="POST">
+        @Html.HiddenFor(x=>x.UrunId)
+
+        <table>
+            <tr>
+                <td>Ürün Adı</td>
+                <td>@Html.TextBoxFor(x => x.UrunAd) </td>@*modelın adı ıcın texbox koy .. gıbı.modelden gelen degerlerı textbox lara yerlestırdık*@
+            </tr>
+            <tr>
+                <td>Fiyat</td>
+                <td>@Html.TextBoxFor(x => x.Fiyat)</td>
+            </tr>
+            <tr>
+                <td>Stok</td>
+                <td>@Html.TextBoxFor(x => x.Stok)</td>
+            </tr>
+
+
+        </table><br/>
+        <input type="submit" value="Güncelle" /> 
+    </form>
+  
+       
+    
+   
+
+
+
+
+
+
+</body>
+</html>

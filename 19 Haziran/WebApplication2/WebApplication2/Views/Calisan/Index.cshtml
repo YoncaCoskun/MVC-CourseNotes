@@ -1,0 +1,42 @@
+﻿
+@using WebApplication2.Models
+@model IEnumerable<CalisanModel>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <th>Çalışan</th>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Unvan</th>
+        <th>Şehir</th>
+        <th>@Html.ActionLink("Yeni","Gor",new {Id=0})</th>
+    </tr>
+
+
+    @foreach (CalisanModel calisan in Model)
+    {
+        using (Html.BeginForm("Sil","Calisan",new{Id=calisan.CalisanId}))  //get olayını yapmaması ıcın bunu yaptık yani gelip bianda linkler kkısmında yazıp sılmesını engelledık.
+        {
+         <tr>
+            <td>@calisan.CalisanId</td>
+            <td>@calisan.Ad</td>
+            <td>@calisan.Soyad</td>
+            <td>@calisan.Unvan</td>
+            <td>@calisan.Sehir</td>
+            <td>@Html.ActionLink("Gör", "Gor", new {Id = calisan.CalisanId})</td>
+             <td><input type="submit" value="Sil" onclick="return confirm('emin misin?')"/></td>
+        </tr>
+        }
+        
+    }
+</table>
+</body>
+</html>

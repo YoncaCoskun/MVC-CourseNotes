@@ -1,0 +1,48 @@
+﻿@using System.Data
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AnaSayfa</title>
+</head>
+<body>
+    <a href="/Home/AnaSayfa">Ana Sayfa</a>
+    <a href="/Home/Yeni">Yeni</a>
+  
+
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Ad</th>
+            <th>Fiyat</th>
+            <th>Stok</th>
+        </tr>
+
+        @foreach (DataRow row in ViewBag.Urunler)
+        {
+            var id = row["ProductId"];
+            var ad = row["ProductName"];
+            var fiyat = row["Unitprice"];
+            var stok = row["UnitsInStock"];
+
+        
+
+                <tr>
+                    <td>@id</td>
+                    <td>@ad</td>
+                    <td>@fiyat</td>
+                    <td>@stok</td>
+                    <td>@Html.ActionLink("Görüntüle","Goruntule",new{id})</td>  @*urunlerın herbırıne tıkladıgında ılgılı actıon ıd yhı gonderıyor./*@
+                   
+                </tr>
+            
+          
+          
+        }
+    </table>
+
+
+    
+</body>
+</html>
