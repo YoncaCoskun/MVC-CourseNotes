@@ -1,0 +1,36 @@
+﻿
+@model IEnumerable<MVC_Devam.Models.Urun>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Ürün Id</th>
+        <th>Ürün Ad</th>
+        <th>Fiyat</th>
+        <th>Stok</th>
+        <th>Kategori</th>
+        <th>@Html.ActionLink("Yeni","Kaydet",new{Id=0})</th>
+
+    </tr>
+
+    @foreach (var urun in Model)
+    {
+        <tr>
+            <td>@urun.Id</td>
+            <td>@urun.Ad</td>
+            <td>@urun.Fiyat</td>
+            <td>@urun.Stok</td>
+            <td>@urun.Kategori.KategoriAd</td>
+            <td>@Html.ActionLink("Güncelle","Kaydet",new{Id=urun.Id})</td>
+            
+        </tr>
+    }
+</table>
+</body>
+</html>

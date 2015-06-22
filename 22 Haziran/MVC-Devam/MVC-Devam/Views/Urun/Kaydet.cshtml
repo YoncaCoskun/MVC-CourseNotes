@@ -1,0 +1,41 @@
+﻿@model MVC_Devam.Models.Urun
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <td>Ürün Id</td>
+                <td>@Html.DisplayFor(x => x.Id)
+                    @Html.HiddenFor(x => x.Id)</td>
+            </tr>
+            <tr>
+                <td>Ürün Ad</td>
+                <td>@Html.TextBoxFor(x => x.Ad)</td>
+            </tr>
+            <tr>
+                <td>Stok</td>
+                <td>@Html.TextBoxFor(x => x.Stok)</td> @*stronglyType denir*@
+            </tr>
+            <tr>
+                <td>Fiyat</td>
+                <td>@Html.TextBoxFor(x => x.Fiyat)</td>
+            </tr>
+            <tr>
+                <td>Kategori</td>               
+                @*<td>@Html.ListBoxFor(x => x.KategoriId, ViewBag.Kategoriler as List<SelectListItem>,new{multiple="false"})</td>*@
+                <td>@Html.DropDownListFor(x => x.KategoriId, ViewBag.Kategoriler as List<SelectListItem>,"Seçiniz..")</td>
+            </tr>
+        </table>
+        <input type="submit" value="Kaydet/Güncelle"/>
+    }
+</body>
+</html>
