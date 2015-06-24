@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MvcBlog.Models.ViewModelKategori>
+
+
+<div id="categories">
+    @foreach (var mdl in Model)
+    {
+        @Html.ActionLink(mdl.Ad, "Index", new {Id = mdl.Id})<br/>
+    }
+</div>

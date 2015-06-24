@@ -1,0 +1,89 @@
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\MvcBlog.dll.config
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\MvcBlog.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\MvcBlog.pdb
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\Antlr3.Runtime.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\Newtonsoft.Json.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Helpers.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Mvc.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Optimization.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Razor.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\WebGrease.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Helpers.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Mvc.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Optimization.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Razor.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\Newtonsoft.Json.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\Antlr3.Runtime.pdb
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\obj\Debug\MvcBlog.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\obj\Debug\MvcBlog.pdb
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\MvcBlog.dll.config
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\MvcBlog.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\MvcBlog.pdb
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\Antlr3.Runtime.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\EntityFramework.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\Newtonsoft.Json.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.Helpers.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.Mvc.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.Optimization.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.Razor.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.WebPages.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\WebGrease.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\EntityFramework.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.Helpers.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.Mvc.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.Optimization.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.Razor.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.WebPages.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\Newtonsoft.Json.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\bin\Antlr3.Runtime.pdb
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\obj\Debug\MvcBlog.csprojResolveAssemblyReference.cache
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\obj\Debug\MvcBlog.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\obj\Debug\MvcBlog.pdb
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\MvcBlog.dll.config
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\MvcBlog.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\MvcBlog.pdb
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\Antlr3.Runtime.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\EntityFramework.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\Microsoft.Web.Infrastructure.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\Newtonsoft.Json.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.Helpers.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.Mvc.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.Optimization.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.Razor.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.WebPages.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\WebGrease.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\EntityFramework.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.Helpers.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.Mvc.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.Optimization.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.Razor.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.WebPages.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\Newtonsoft.Json.xml
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\bin\Antlr3.Runtime.pdb
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\obj\Debug\MvcBlog.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\obj\Debug\MvcBlog.dll
+\\psf\Home\Desktop\24 Haziran\MvcBlog\MvcBlog\obj\Debug\MvcBlog.pdb

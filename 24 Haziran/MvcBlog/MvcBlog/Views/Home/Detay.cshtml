@@ -1,0 +1,28 @@
+﻿@using MvcBlog.Models
+@model MvcBlog.Models.ViewModelMakale
+
+
+@{
+    ViewBag.Title = Model.Baslik;
+  
+}
+
+<div id="article">
+
+    <h2 style="text-align: center">@Model.Baslik</h2>
+    <span class="dateSpan">@Model.Tarih</span><span class="readCountSpan">@Model.OkunmaSayisi</span>
+    <div class="clearer"></div>
+    <hr/>
+    @Model.Icerik
+
+    <hr/>
+    <img src="~/Content/img/like.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="~/Content/img/dislike.png" />
+    <br/>
+    <br/>
+    <br/>
+    @Html.Partial("_YorumPartial", new ViewModelYorum { MakaleId = Model.Id })
+</div>
+<script type="text/javascript">
+   
+</script>
