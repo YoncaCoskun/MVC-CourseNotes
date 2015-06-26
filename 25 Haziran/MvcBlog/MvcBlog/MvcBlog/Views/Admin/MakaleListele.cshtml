@@ -1,0 +1,29 @@
+﻿@using MvcBlog.Models
+@model IEnumerable<ViewModelMakaleAdmin>
+
+@{
+    ViewBag.Title = "Makale Listesi";
+    Layout = "../Shared/_LayoutSecure.cshtml";
+}
+
+<table class="tableFull">
+    <tr>
+        <th>Makale Id</th>
+        <th>Başlık</th>
+        <th>Tarih</th>
+        <th>Okunma Sayisi</th>
+        <th>Silindi</th>
+        <th>@Html.ActionLink("Yeni", "MakaleEkle", new { Id = 0 })</th>
+    </tr>
+    @foreach (ViewModelMakaleAdmin mkl in Model)
+    {
+        <tr>
+            <td>@mkl.Id</td>
+            <td>@mkl.Baslik</td>
+            <td>@mkl.Tarih</td>
+            <td>@mkl.OkunmaSayisi</td>
+            <td>@mkl.SilindiText</td>
+            <td>@Html.ActionLink("Güncelle", "MakaleEkle", new { mkl.Id })</td>
+        </tr>
+    }
+</table>

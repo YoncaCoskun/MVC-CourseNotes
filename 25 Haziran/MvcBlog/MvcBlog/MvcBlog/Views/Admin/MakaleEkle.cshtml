@@ -1,0 +1,47 @@
+﻿@model MvcBlog.Models.ViewModelMakale
+@{
+    ViewBag.Title = "MakaleEkle";
+    Layout = "~/Views/Shared/_LayoutSecure.cshtml";
+}
+@using (Html.BeginForm())
+{
+    <table class="tableFull">
+        <tbody>
+            <tr>
+                <td>Id</td>
+                <td>@Html.DisplayFor(x => x.Id)@Html.HiddenFor(x => x.Id)</td>
+            </tr>
+            <tr>
+                <td>Başlık</td>
+                <td>@Html.TextBoxFor(x => x.Baslik)</td>
+            </tr>
+            <tr>
+                <td>Özet</td>
+                <td>@Html.TextAreaFor(x => x.Ozet, new { rows = 4 })</td>
+            </tr>
+            <tr>
+                <td>İçerik</td>
+                <td>@Html.TextAreaFor(x => x.Icerik, new { rows = 4 })</td>
+            </tr>
+            <tr>
+                <td>Kategori</td>
+                <td>@Html.DropDownListFor(x => x.KategoriId, Model.KategoriListesi, "Seçiniz")</td>
+            </tr>
+            <tr>
+                <td>Okunma Sayısı</td>
+                <td>@Html.DisplayFor(x => x.OkunmaSayisi)</td>
+            </tr>
+            <tr>
+                <td>Silindi</td>
+                <td>@Html.CheckBoxFor(x => x.Silindi)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><input type="submit" value="Kaydet" /></td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+}

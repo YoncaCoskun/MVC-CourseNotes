@@ -1,0 +1,26 @@
+﻿@using MvcBlog.Models
+@model List<ViewModelKategori>
+@{
+    ViewBag.Title = "KategoriListele";
+    Layout = "~/Views/Shared/_LayoutSecure.cshtml";
+}
+
+<table class="tableFull">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Ad</th>
+            <th>@Html.ActionLink("Yeni", "KategoriEkle", new { Id = 0 })</th>
+    </tr>
+</thead>
+<tbody>
+    @foreach (ViewModelKategori kat in Model)
+    {
+        <tr>
+            <td>@kat.Id</td>
+            <td>@kat.Ad</td>
+            <td>@Html.ActionLink("Güncelle", "KategoriEkle", new {kat.Id })</td>
+        </tr>
+    }
+</tbody>
+</table>

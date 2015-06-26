@@ -1,0 +1,48 @@
+﻿body {
+    font: 14px 'Segoe UI', 'Helvetica', 'Tahoma', 'Geneva', 'sans-serif';
+    color: gray !important;
+}
+
+#kapsayici {
+    -webkit-box-shadow: 0 0 4px 1px silver;
+    -ms-box-shadow: 0 0 4px 1px silver;
+    box-shadow: 0 0 4px 1px silver;
+    margin: 0 auto;
+    width: 96%;
+    border: 1px solid lightgray;
+    min-height: 600px;
+}
+
+#ustKisim {
+    height: 50px;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 4px 1px silver;
+}
+#altKisim {
+    width: 100%;
+    margin: 0 auto;
+}
+#altSol {
+    width: 70%;
+    float: left;
+    box-shadow: 0 0 4px 1px silver;
+    min-height: 550px;
+}
+#altSag{
+    width: 26%;
+    float: left;
+    box-shadow: 0 0 4px 1px silver;
+    min-height: 550px;
+}
+div {
+    margin: 5px;
+    padding: 5px;
+}
+.clearer {
+    clear: both;
+}
+.makaleDiv {
+    box-shadow: 0 0 4px 1px silver;
+    color: silver;
+    margin-bottom: 15px;
+}

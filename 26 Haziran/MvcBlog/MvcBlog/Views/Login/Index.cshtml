@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/Site.css" rel="stylesheet"/>
+    <style type="text/css">
+        #loginDiv {
+            margin: 0 auto;
+            width: 300px;
+            padding: 20px;
+            margin-top: 150px;
+            box-shadow: 0 0 10px #00A950;
+        }
+    </style>
+</head>
+<body>
+    <div id="loginDiv">
+        @using (Html.BeginForm("GirisYap","Login"))
+        {
+            <input type="text" placeholder="Kullanıcı adı..." name="kullaniciAdi" /><br /><br />
+            <input type="password" placeholder="parola" name="parola" /><br /><br />
+            <input type="submit" value="Giriş"/><br/>
+        }
+        @ViewBag.LoginHatasi
+    </div>
+</body>
+</html>

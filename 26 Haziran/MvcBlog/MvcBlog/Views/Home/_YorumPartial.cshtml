@@ -1,0 +1,12 @@
+﻿@model MvcBlog.Models.ViewModelYorum
+
+<div id="yorum">
+    <h1>Yorum Yaz</h1>
+ 
+        @Html.HiddenFor(x=>x.MakaleId)
+        @Html.TextBoxFor(x => x.Yazan, new {placeholder = "Ad Soyad"})<br/><br/><br/>
+        @Html.TextAreaFor(x => x.Icerik, new {placeholder = "Yorumunuz...", rows = 5})<br/><br/><br/>
+    <input type="button" value="Gönder" onclick="YorumGonder();" id="btnYorumGonder"/>
+    <img src="~/Content/img/loader.gif" class="invisible" id="loaderImg"/>
+    <div id="spanResult"></div>
+</div>

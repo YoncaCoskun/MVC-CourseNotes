@@ -1,0 +1,50 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Giris</title>
+    <link href="~/Content/general.css" rel="stylesheet" />
+    <style type="text/css">
+        #loginDiv {
+            box-shadow: 0 0 4px 1px silver;
+            margin: 0 auto;
+            width: 300px;
+            margin-top: 200px;
+            height: 150px;
+            padding: 25px;
+        }
+        #mesaj {
+            color: red;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="loginDiv">
+        @using (Html.BeginForm("GirisYap","Admin"))
+        {
+            <table>
+                <tr>
+                    <td>Kullanıcı Adı</td>
+                    <td><input type="text" name="kullaniciAdi" /></td>
+                </tr>
+                <tr>
+                    <td>Parola</td>
+                    <td><input type="password" name="parola" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Giriş Yap" /></td>
+                </tr>
+            </table>
+        }
+
+        <span id="mesaj">@ViewBag.GirisMesaji </span>
+    </div>
+</body>
+</html>

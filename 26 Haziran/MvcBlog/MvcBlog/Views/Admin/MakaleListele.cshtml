@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MvcBlog.Models.ViewModelMakale>
+@{
+    ViewBag.Title = "MakaleListele";
+    Layout = "~/Views/Shared/_LayoutPageAdmin.cshtml";
+}
+<table class="tableBorder">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Baslik</th>
+            <th>KategoriAd</th>
+            <th>Like Sayısı</th>
+            <th>Dislike Sayısı</th>
+            <th>OkunmaSayisi</th>
+            <th>Tarih</th>
+            <th>@Html.ActionLink("Yeni", "MakaleKaydet", new { Id = 0 })</th>
+            <th>Pasif</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var mkl in Model)
+        {
+            <tr>
+                <td>@mkl.Id</td>
+                <td>@mkl.Baslik</td>
+                <td>@mkl.KategoriAd</td>
+                <td>@mkl.Like</td>
+                <td>@mkl.Dislike</td>
+                <td>@mkl.OkunmaSayisi</td>
+                <td>@mkl.Tarih</td>
+                <td>@Html.ActionLink("Güncelle", "MakaleKaydet", new { mkl.Id })</td>
+                <td><input type="checkbox" checked="@mkl.Pasif" onclick="YayinDurumGuncelle(@mkl.Id)" /></td>
+            </tr>
+        }
+    <tbody>
+</table>

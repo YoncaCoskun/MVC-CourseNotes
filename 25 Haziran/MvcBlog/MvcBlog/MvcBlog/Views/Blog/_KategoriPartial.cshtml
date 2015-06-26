@@ -1,0 +1,12 @@
+﻿@using MvcBlog.Models
+@model IEnumerable<MvcBlog.Models.ViewModelKategori>
+<fieldset>
+    <legend>Kategoriler</legend>
+    @foreach (ViewModelKategori item in Model)
+    {
+        @Html.ActionLink(item.Ad,"",new {item.Id})<br/>
+        
+    }
+
+
+</fieldset>

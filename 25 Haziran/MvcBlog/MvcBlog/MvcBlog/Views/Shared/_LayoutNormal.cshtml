@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/general.css" rel="stylesheet" />
+    <link href="~/Content/blog.css" rel="stylesheet" />
+</head>
+<body>
+<div id="kapsayici">
+
+    <div id="ustKisim">sdfgsdfgsdfg</div>
+    <div id="altKisim">
+        <div id="altSol">@RenderBody()</div>
+        <div id="altSag">
+            @Html.Action("_KategoriPartial","Blog")
+        </div>
+    </div>
+
+    <div class="clearer"></div>
+</div>
+    </body>
+</html>

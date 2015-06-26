@@ -1,0 +1,29 @@
+﻿@model MvcBlog.Models.ViewModelKategori
+
+@{
+    ViewBag.Title = "KategoriEkle";
+    Layout = "~/Views/Shared/_LayoutSecure.cshtml";
+}
+
+@using(Html.BeginForm("KategoriEkle", "Admin"))
+{
+<table class="tableFull">
+    <tbody>
+        <tr>
+            <td>Id</td>
+            <td>@Html.DisplayFor(x => x.Id) @Html.HiddenFor(x => x.Id) </td>
+        </tr>
+        <tr>
+            <td>Ad</td>
+            <td>@Html.TextBoxFor(x => x.Ad)</td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td colspan="2"><input type="submit" value="Kaydet" /></td>
+    </tr>
+</tfoot>
+</table>
+
+}
+

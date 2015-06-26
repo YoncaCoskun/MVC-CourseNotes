@@ -1,0 +1,13 @@
+﻿@model HandleErrorInfo
+@{
+    ViewBag.Title = "HataSayfasi";
+    Layout = "~/Views/Shared/_LayoutPageBlog.cshtml";
+}
+
+<h2>Hata !!!</h2>
+<p>OOpppss! Beklenmedik bir hata oluştu..!!</p>
+
+Controller Adı : @Model.ControllerName<br/>
+Action Adı: @Model.ActionName<br/>
+Hata Mesajı: @Model.Exception.Message
+

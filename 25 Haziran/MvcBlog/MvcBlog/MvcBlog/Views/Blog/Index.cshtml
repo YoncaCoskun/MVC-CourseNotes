@@ -1,0 +1,18 @@
+﻿@using MvcBlog.Models
+@model IEnumerable<MvcBlog.Models.ViewModelMakale>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutNormal.cshtml";
+}
+
+@foreach (ViewModelMakale mdl in Model)
+{
+    <div class="makaleDiv">
+        <h3>@mdl.Baslik</h3>
+
+        <p>@mdl.Ozet</p>
+        <p>@mdl.Tarih</p>
+        <p>Okunma Sayısı: @mdl.OkunmaSayisi</p>
+
+    </div>
+}

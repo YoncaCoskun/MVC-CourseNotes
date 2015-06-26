@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/blog.js"></script>
+    <style type="text/css">
+        #leftBar {
+            width: 10% !important;
+        }
+        #rightBar {
+            width: 81% !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="container" class="shadowBox">
+        <div id="header" class="shadowBox"><a href="/Admin">Mehmet Yıldız Kişisel Blog Yönetim Sayfası</a></div>
+        <div id="content">
+            <div id="leftBar" class="shadowBox">
+                @Html.ActionLink("Makaleler", "MakaleListele")<br />
+                @Html.ActionLink("Kategoriler", "KategoriListele")<br />
+                @Html.ActionLink("Etiketler", "EtiketListele")<br/>
+
+            </div>
+            <div id="rightBar" class="shadowBox">@RenderBody()</div>
+        </div>
+        <div class="clearer"></div>
+    </div>
+</body>
+</html>

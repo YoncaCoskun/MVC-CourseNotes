@@ -1,0 +1,69 @@
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\MvcBlog.dll.config
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\MvcBlog.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\MvcBlog.pdb
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\Microsoft.Web.Infrastructure.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Helpers.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Mvc.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Razor.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.xml
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.xml
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Helpers.xml
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Mvc.xml
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Razor.xml
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.xml
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.xml
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.xml
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\obj\Debug\MvcBlog.csprojResolveAssemblyReference.cache
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\obj\Debug\MvcBlog.dll
+\\10.5.22.15\Visual Studio 2013\Projects\MvcBlog\MvcBlog\obj\Debug\MvcBlog.pdb
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\MvcBlog.dll.config
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\MvcBlog.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\MvcBlog.pdb
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Helpers.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Mvc.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Razor.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Helpers.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Mvc.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.Razor.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.xml
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\obj\Debug\MvcBlog.dll
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\obj\Debug\MvcBlog.pdb
+C:\Users\ogrenci\documents\visual studio 2013\Projects\MvcBlog\MvcBlog\obj\Debug\MvcBlog.csprojResolveAssemblyReference.cache
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\MvcBlog.dll.config
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\MvcBlog.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\MvcBlog.pdb
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\EntityFramework.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.Helpers.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.Mvc.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.Razor.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.WebPages.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\EntityFramework.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\EntityFramework.SqlServer.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.Helpers.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.Mvc.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.Razor.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.WebPages.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\bin\System.Web.WebPages.Razor.xml
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\obj\Debug\MvcBlog.csprojResolveAssemblyReference.cache
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\obj\Debug\MvcBlog.dll
+C:\Users\ogrenci\Desktop\MvcBlog\MvcBlog\MvcBlog\obj\Debug\MvcBlog.pdb

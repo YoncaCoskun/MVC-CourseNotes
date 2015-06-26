@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/admin.css" rel="stylesheet" />
+    <link href="~/Content/general.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            Mehmet YILDIZ Blog Yönetim Sayfası
+        </div>
+        <div id="menu">
+            @Html.ActionLink("Makaleler", "MakaleListele", "Admin")
+            @Html.ActionLink("Kategoriler", "KategoriListele","Admin")
+            @Html.ActionLink("Etiketler", "EtiketListele","Admin")
+        </div>
+        <div id="content">@RenderBody()</div>
+    </div>
+</body>
+</html>

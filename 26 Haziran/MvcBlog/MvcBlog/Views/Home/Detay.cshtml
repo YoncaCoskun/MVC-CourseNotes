@@ -1,0 +1,79 @@
+﻿@using MvcBlog.Models
+@model ViewModelMakale
+@{
+    ViewBag.Title = Model.Baslik;
+}
+
+<div id="article">
+    <span class="dateSpan">@Model.Tarih</span>
+    <span class="readCountSpan">Okunma Sayısı: @Model.OkunmaSayisi</span>
+    <h2 style="text-align: center">@Model.Baslik</h2>
+    <div class="clearer"></div>
+    <hr />
+    @Model.Icerik
+    @Html.HiddenFor(x => x.Id)
+    <br />
+    <br />
+    Etiketler:
+    @foreach (var etiket in Model.Etiketler)
+    {
+        @Html.ActionLink(etiket.EtiketAd, "MakaleleriGetirByEtiketId", new { Id = etiket.EtiketId }, new { @class = "etiketAnchor" })
+    }
+    <br />
+    <br />
+    <hr />
+    <img src="/Content/img/like.png" class="hand" onclick="DoLike()" id="imgLike" />
+    <span id="likeSpan">@Model.Like</span> :
+    <span id="dislikeSpan">@Model.Dislike</span>
+    <img src="/Content/img/dislike.png" class="hand" onclick="DoDislike()" id="imgDislike" />
+    <br />
+    <br />
+    <br />
+    @Html.Partial("_YorumPartial", new ViewModelYorum { MakaleId = Model.Id })
+    <br />
+    <br />
+    <br />
+    <br />
+    Yorumlar
+    <br />
+    <div style="border: 1px solid silver;" id="yorumlar">
+
+    </div>
+
+</div>
+<script type="text/javascript">
+
+    var processing;
+    $(document).ready(function () {
+        $(document).scroll(function (e) {
+            if (processing)
+                return false;
+
+            if ($(window).scrollTop() >= ($(document).height() - $(window).height()) * 0.7) {
+                processing = true;
+
+                var makaleId = $('#Id').val();
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/YorumlariGetirByMakaleId",
+                    data: { id: makaleId },
+                    success: function (data) {
+                        var resultStr = "";
+                        for (var yorum in data) {
+                            var icerik = data[yorum].Icerik;
+                            var yazan = data[yorum].Yazan;
+                            var tarih = data[yorum].EklenmeTarihiStr;
+
+                            resultStr += "<fieldset class='yorumFieldset'><legend><b>" + yazan + "</b> " + tarih + "</legend>" + icerik + "</fieldset><br/><br/>";
+                        }
+                        $('#yorumlar').html(resultStr);
+                    },
+                    error: function (err) {
+                    },
+                    dataType: "json"
+                });
+            }
+        });
+    });
+
+</script>

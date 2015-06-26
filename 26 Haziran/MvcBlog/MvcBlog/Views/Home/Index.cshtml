@@ -1,0 +1,14 @@
+﻿@model IEnumerable<MvcBlog.Models.ViewModelMakale>
+@{
+    ViewBag.Title = "Index";
+}
+
+@foreach (var mdl in Model)
+{
+    <div class="articleContainer">
+        <h1>@Html.ActionLink(mdl.Baslik, "Detay", new { mdl.Id })</h1>
+        <p>@mdl.Ozet</p>
+        <hr />
+        <span class="dateSpan">@mdl.Tarih</span> <span class="readCountSpan">Okunma Sayısı : @mdl.OkunmaSayisi</span>
+    </div>
+}

@@ -1,0 +1,42 @@
+﻿
+input[type="text"], input[type="password"], select {
+    width: 90%;
+    margin: 5px;
+    height: 35px;
+    border: 1px solid silver;
+}
+
+textarea {
+    width: 90%;
+    margin: 5px;
+    border: 1px solid silver;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #00A950;
+    color: white;
+    height: 35px;
+    width: 75px;
+    cursor: pointer;
+    border: 1px solid silver;
+    float: right;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: silver;
+    color: #00a950;
+    }
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #00b4ff;
+    -webkit-box-shadow: 0 0 10px #00c8ff;
+    -ms-box-shadow: 0 0 10px #00c8ff;
+    box-shadow: 0 0 10px #00c8ff;
+    color: #444;
+}
+input[type="text"]:hover, input[type="password"]:hover, textarea:hover {
+    -webkit-box-shadow: 0 0 10px #87ceeb;
+    -ms-box-shadow: 0 0 10px #87ceeb;
+    box-shadow: 0 0 10px #87ceeb;
+}

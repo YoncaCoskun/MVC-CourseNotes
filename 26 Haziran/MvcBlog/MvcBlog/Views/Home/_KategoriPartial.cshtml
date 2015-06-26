@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MvcBlog.Models.ViewModelKategori>
+
+<div id="categories">
+    <a href="/Home">Tümü</a><br />
+    @foreach (var mdl in Model)
+    {
+        @Html.ActionLink(mdl.Ad, "KategoriyeGoreMakaleleriGetir", new {mdl.Id})<br/>
+    }
+</div>
